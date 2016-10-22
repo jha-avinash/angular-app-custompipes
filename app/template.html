@@ -1,6 +1,6 @@
 <h2>Power Boost Calculator</h2>
-    <div>Normal power: <input [(ngModel)]="value1"></div>
-    <div>Boost factor: <input [(ngModel)]="value2"></div>
+    <div>value 1: <input [(ngModel)]="value1"></div>
+    <div>Value 2: <input [(ngModel)]="value2"></div>
     <p>
-      Super Hero Power: {{power | simplecalculator: factor}}
+      Super Calculator Sum: {{value1 | simplecalculator: value2}}
     </p>
